@@ -10,8 +10,8 @@ import pyodbc
 
 connectionString = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER=localhost;DATABASE=Testo;UID=sa;PWD=1234"
 conn = pyodbc.connect(connectionString)
-SQL_QUERY_MAIN = "UPDATE [dbo].[tblProject] SET [MainFolderLink] = 'XX' AND [FolderCreated] =1 WHERE [ID] ='YY'"
-SQL_QUERY_SUB = "UPDATE [dbo].[tblProject] SET [SKUFoldersLink] = 'XX' AND [FolderCreated] =1  WHERE [ID] ='YY'"
+SQL_QUERY_MAIN = "UPDATE [dbo].[tblProject] SET [MainFolderLink] = 'XX' , [FolderCreated] =1 WHERE [ID] ='YY'"
+SQL_QUERY_SUB = "UPDATE [dbo].[tblProject] SET [SKUFoldersLink] = 'XX' , [FolderCreated] =1  WHERE [ID] ='YY'"
 
 
 def UpdateProjectTable(ID, link, isSubfolder):
