@@ -36,8 +36,7 @@ for row in cursor:
         VerifyAndCallEgnyteApi(ID,ProjectName,isSku,FolderCreated, Skus)
 
     else :
-        print('Skip')
-        
+        print('Skip')        
 
 #verify creation
 VerifyCreation()
