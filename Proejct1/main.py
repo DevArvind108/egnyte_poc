@@ -37,6 +37,7 @@ for row in cursor:
 
     else :
         print('Skip')
+        
 
 #verify creation
 VerifyCreation()
