@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "Egnyte"
+    ],
+    "python.analysis.extraPaths": [
+        "./Project2/Helpers"
     ]
 }
