@@ -6,6 +6,10 @@ database_name = "Testo"
 username = "sa"
 password = "1234"
 
+#server_name1 = process.env.AZURE_SQL_SERVER;
+
+
+
 #store api username pass : key vault
 #daymonidtoExclude: + sql connection in enviornemtn process.env.AZURE_SQL_AUTHENTICATIONTYPE;
 
