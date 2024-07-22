@@ -9,7 +9,7 @@
 			"isBackground": true,
 			"dependsOn": "pip install (functions)",
 			"options": {
-				"cwd": "${workspaceFolder}/Project2\\AzureFunction1"
+				"cwd": "${workspaceFolder}/Project2\\AzureFunctions"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 			},
 			"problemMatcher": [],
 			"options": {
-				"cwd": "${workspaceFolder}/Project2\\AzureFunction1"
+				"cwd": "${workspaceFolder}/Project2\\AzureFunctions"
 			}
 		}
 	]
